@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "FareShare",
+    "slug": "FareShare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/transparentsplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00539c"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAviCCo5t_AayslRN3EdZPaQoSzJPXhRWI"
+        }
+      },
+      "package": "com.talha_farrukh.carpool"
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    }
+  }
+}
